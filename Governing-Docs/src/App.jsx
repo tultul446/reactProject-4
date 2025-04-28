@@ -1,15 +1,19 @@
 import React from 'react'
 import './App.css'
-import Button from './components/common/Button'
-import Section from './components/common/SectionTitle'
+
+import Navbar from './components/sheared/Navbar'
+import Footer from './components/sheared/Footer'
+
+
+
 
 function App() {
   return (
-    <main>
-     <Button>Get Started Today</Button>
-     <Button className={"bg-amber-500"}>Get Started Today</Button>
-    
-     <Section gradient={"solution"}> problem & </Section>
+    <main className='bg-sky-200'>
+
+   <Navbar/>
+ 
+   <Footer/> 
     </main>
   )
 }

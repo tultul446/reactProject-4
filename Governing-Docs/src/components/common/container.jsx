@@ -5,7 +5,7 @@ const Container = ({ children, className }) => {
     <div className={cn("w-full max-w-screen-xl mx-auto px-2.5 " ,
       className
     )}>
-    {children}
+    { children }
     </div>
   )
 }
