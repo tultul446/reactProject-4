@@ -10,10 +10,6 @@ const Navbar = () => {
     const toggleMenu = () => setIsMenuOpen((prev) => !prev);
 
 
-
-
-
-
   return (
     <nav className='py-3 ml-7 mr-7'>
     <Container>

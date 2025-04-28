@@ -9,10 +9,12 @@ import Footer from './components/sheared/Footer'
 
 function App() {
   return (
-    <main className='bg-sky-200'>
+    <main className=''>
 
    <Navbar/>
  
+<div className='min-h-[50svh]'>  </div>
+
    <Footer/> 
     </main>
   )
