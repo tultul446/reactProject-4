@@ -3,17 +3,18 @@ import './App.css'
 
 import Navbar from './components/sheared/Navbar'
 import Footer from './components/sheared/Footer'
+import Hero from './components/Home/Hero'
 
 
 
 
 function App() {
   return (
-    <main className=''>
+    <main className='font-sans bg-[url(./Vector-1.png)] min-h-svh bg-no-repeat bg-top'>
 
    <Navbar/>
- 
-<div className='min-h-[50svh]'>  </div>
+  <Hero />
+
 
    <Footer/> 
     </main>

@@ -13,7 +13,7 @@ const Footer = () => {
          <div className='hidden lg:flex justify-center items-center gap-3 xl:gap-4'  >
                {navItems.map(({label, link}, i) => (
                       <a href={link} key={i}> 
-                         <p className='text-gray-600 text-sm xl:text-base hover:text-[#00D2FF] transition-colors duration-150' >
+                         <p className='text-gray-600/50 text-sm xl:text-base hover:text-[#00d0ff] transition-colors duration-150' >
                           {label} </p>
                      </a>
                       ))}
@@ -34,7 +34,7 @@ const Footer = () => {
 
 
         <div className='footer-border-color border-t border-transparent mt-5 md:mt-[50px] lg:mt-[106px]  '>
-          <p className='text-lg text-center leading-[18px] text-[#111111] py-5'>Ai GoverningDocs 2024. All Rights Reserved.
+          <p className='text-lg text-center leading-[18px] text-black/70 py-5'>Ai GoverningDocs 2024. All Rights Reserved.
            </p>
           </div>
 
