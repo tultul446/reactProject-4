@@ -4,6 +4,7 @@ import './App.css'
 import Navbar from './components/sheared/Navbar'
 import Footer from './components/sheared/Footer'
 import Hero from './components/Home/Hero'
+import ProblemSolution from './components/Home/ProblemSolution'
 
 
 
@@ -14,7 +15,7 @@ function App() {
 
    <Navbar/>
   <Hero />
-
+ <ProblemSolution/>
 
    <Footer/> 
     </main>
