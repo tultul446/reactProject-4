@@ -17,7 +17,7 @@ const ProblemSolution = () => {
 
          
 
-        <div className='pt-10 grid grid-cols-4 place-items-center gap-[30px] '>
+        <div className='pt-10 grid lg:grid-cols-4 grid-rows-1 md:grid-cols-2 place-items-center lg:gap-[30px] md:space-y-2.5 space-y-3'>
 
           {problemSolutions.map((Problem, i) =>( 
           <ProblemSolutionCard  key={i} {...Problem}/>

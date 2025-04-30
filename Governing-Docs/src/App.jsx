@@ -5,6 +5,7 @@ import Navbar from './components/sheared/Navbar'
 import Footer from './components/sheared/Footer'
 import Hero from './components/Home/Hero'
 import ProblemSolution from './components/Home/ProblemSolution'
+import Reviews from './components/Home/Reviews'
 
 
 
@@ -16,7 +17,7 @@ function App() {
    <Navbar/>
   <Hero />
  <ProblemSolution/>
-
+ <Reviews/>
    <Footer/> 
     </main>
   )
