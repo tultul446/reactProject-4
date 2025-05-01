@@ -21,8 +21,8 @@ const Footer = () => {
 
             <div className='flex justify-center items-center gap-2.5'>
                {
-                socialIcon.map(({img, url} ) => (
-                 <a href={url} target="_blank" rel="noopener noreferrer">
+                socialIcon.map(({img, url}, i ) => (
+                 <a href={url} target="_blank" rel="noopener noreferrer" key={i}>
 
                <img src={ img } alt="Social icon" className="size-[36px]"/>
                  </a>

@@ -55,3 +55,42 @@ export const problemSolutions =[
 
 ];
 
+
+
+
+export const reviews = [
+
+{
+    image:'./Ellipse-15.png',
+    name:'David',
+     type:'Happy Client',
+    review:{
+        star:'./stars.png',
+        title:'It Was A Amazing Experiance!',
+        details:'The AI features saved us countless hours and ensured our compliance was spot on.'
+    },
+},
+{
+    image:'./Ellipse-16.png',
+    name:'John Smith',
+     type:'Happy Client',
+    review:{
+        
+        star:'./star5.png',
+        title:'It Was A Amazing place!',
+        details:'The AI features saved us countless hours and ensured our compliance was spot on.'
+    },
+},
+{
+  
+    image:'./Ellipse-17.png',
+    name:'Ronald Richards',
+    type:'Happy Client',
+    review:{
+        title:'It Was A Amazing idea!',
+        star:'./stars.png',
+       details:'The AI features saved us countless hours and ensured our compliance was spot on.'
+    },
+},
+
+]
