@@ -6,6 +6,7 @@ import Footer from './components/sheared/Footer'
 import Hero from './components/Home/Hero'
 import ProblemSolution from './components/Home/ProblemSolution'
 import Reviews from './components/Home/Reviews'
+import Partners from './components/Home/Partners'
 
 
 
@@ -18,6 +19,7 @@ function App() {
   <Hero />
  <ProblemSolution/>
  <Reviews/>
+ <Partners/>
    <Footer/> 
     </main>
   )

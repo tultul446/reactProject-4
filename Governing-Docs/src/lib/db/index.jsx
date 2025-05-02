@@ -93,4 +93,34 @@ export const reviews = [
     },
 },
 
+];
+
+
+export const partners =[
+    {
+        src:'./logo-1.png',
+        alt:'Partner 1'
+    },
+    {
+        src:'./logo-2.png',
+        alt:'Partner 2'
+    },
+    {
+        src:'./logo-3.png',
+        alt:'Partner 3'
+    },
+    {
+        src:'./logo-4.png',
+        alt:'Partner 4'
+    },
+    {
+        src:'./logo-5.png',
+        alt:'Partner 5'
+    },
+    {
+        src:'./logo-6.png',
+        alt:'Partner 6'
+    },
+   
 ]
+
