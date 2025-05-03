@@ -2,6 +2,11 @@
 
 
 
+.no-scroll{
+  overflow: hidden;  
+}
+
+
 
 /* Gradient Border color */
 
@@ -38,3 +43,6 @@
     background: linear-gradient(180deg, #00D2FF 0%, #059DBE 100%);   
 }
 
+.note{
+    background:white;
+}

@@ -9,6 +9,15 @@ const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const toggleMenu = () => setIsMenuOpen((prev) => !prev);
 
+    useState(() => {
+        const bodyClassList = document.body.classList;
+        isMenuOpen ? bodyClassList.add('no-scroll') : bodyClassList.remove('no-scroll');
+        return () =>{
+           bodyClassList.remove('no-scroll')}
+    },
+    [isMenuOpen])
+
+
 
   return (
     <nav className='py-3 ml-7 mr-7'>
