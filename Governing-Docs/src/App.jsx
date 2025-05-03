@@ -7,7 +7,7 @@ import Hero from './components/Home/Hero'
 import ProblemSolution from './components/Home/ProblemSolution'
 import Reviews from './components/Home/Reviews'
 import Partners from './components/Home/Partners'
-
+import Faq from './components/Home/Faq';
 
 
 
@@ -20,7 +20,9 @@ function App() {
  <ProblemSolution/>
  <Reviews/>
  <Partners/>
+ <Faq/>
    <Footer/> 
+  
     </main>
   )
 }

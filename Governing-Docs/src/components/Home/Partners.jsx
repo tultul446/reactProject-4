@@ -11,7 +11,7 @@ const Partners = () => {
         Our </SectionTitle>
 
        {/* Card section */}
-        <div className='pt-10  flex  justify-center items-center flex-wrap gap-x-[30px] gap-y-[]  '>
+        <div className='pt-10  flex  justify-center items-center flex-wrap gap-x-[30px] gap-y-[20px]  '>
 
           {partners.map(({src, alt}, i) => (
 

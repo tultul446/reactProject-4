@@ -67,7 +67,7 @@ const activeReview = reviews[active];
       <div className='flex justify-start items-center'>
 
       {Array.from(Array(1)).map(( i) => (
-      <img src={activeReview.review.star} alt="" key={i}/>
+      <img src={activeReview.review.star} alt="name" key={i}/>
       )
 
       )}

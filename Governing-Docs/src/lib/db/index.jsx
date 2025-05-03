@@ -124,3 +124,15 @@ export const partners =[
    
 ]
 
+export const faqs =[
+   { a:`Is my data secure?`,
+      q:`Yes, we prioritize data security and compliance with industry standards`
+    },
+   { a:`What types of documents can Ai GoverningDocs generate?
+`,
+      q:`We cover a wide range of documents, including contracts, NDAs, compliance reports, and more. `
+    },
+   { a:`Is my data secure?`,
+      q:`Yes, we prioritize data security and compliance with industry standards `
+    }
+]
