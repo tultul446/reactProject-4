@@ -14,8 +14,8 @@ const handleChange = (index) => {
 
 
   return (
-    <section className='mt-[50px] sm:mt-20 lg:mt-[100px]  xl:mt-[150px]'>
-      <Container className='max-w-[982px]'>
+    <section className='mt-[50px] sm:mt-20 lg:mt-[100px]  xl:mt-[150px] relative '>
+      <Container className='max-w-[982px] relative z-10'>
        
       <SectionTitle gradient='Asked Questions'> Frequently </SectionTitle>
       
@@ -30,6 +30,7 @@ key={i}
       
       
       </Container>
+      <img src="./Vector-3.png" alt="" className='absolute -top-1  md:top-3 lg:-top-7 left-0.5 md:left-1 lg:left-2'/>
     </section>
   )
 }

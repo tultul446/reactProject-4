@@ -8,6 +8,7 @@ import ProblemSolution from './components/Home/ProblemSolution'
 import Reviews from './components/Home/Reviews'
 import Partners from './components/Home/Partners'
 import Faq from './components/Home/Faq';
+import Note from './components/Home/Note'
 
 
 
@@ -21,6 +22,7 @@ function App() {
  <Reviews/>
  <Partners/>
  <Faq/>
+ <Note/>
    <Footer/> 
   
     </main>
